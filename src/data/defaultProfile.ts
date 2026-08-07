@@ -1,20 +1,20 @@
 import { ProfileData } from '../types';
 
 import logoImg from '../assets/images/bgi_logo_1786128343361.jpg';
-import profileImg from '../assets/images/it_head.jpg';
+import profileImg from '../assets/images/com_head.jpg';
 
 export const BGI_LOGO_PATH = logoImg;
 
 export const DEFAULT_PROFILE: ProfileData = {
-    name: 'Miftaul Islam',
+    name: 'Jannatul Maowa',
 
-    dept: 'It,Graphics & mail',
+    dept: 'Communication  ',
 
     role: 'Director ',
 
-    email: 'miftahul.bgi.community@gmail.com',
+    email: 'jannatul.bgi.community@gmail.com',
 
-    phone: '+880 1719068964',
+    phone: '+880 1790099914',
 
     bloodGroup: 'O+',
 
@@ -27,16 +27,8 @@ export const DEFAULT_PROFILE: ProfileData = {
     location: 'Dhaka, Bangladesh',
 
     socials: {
-        linkedin: 'https://linkedin.com/in/tanvir-hossain-bgi',
+        facebook: 'https://www.facebook.com/jannatul.maowa.745318',
 
-        github: 'https://github.com/tanvir-bgi',
-
-        facebook: 'https://facebook.com/tanvir.bgi.community',
-
-        instagram: 'https://instagram.com/tanvir_bgi',
-
-        twitter: 'https://x.com/tanvir_bgi',
-
-        whatsapp: 'https://wa.me/8801712345678'
+       
     }
 };
