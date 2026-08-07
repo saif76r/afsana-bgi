@@ -1,20 +1,20 @@
 import { ProfileData } from '../types';
 
 import logoImg from '../assets/images/bgi_logo_1786128343361.jpg';
-import profileImg from '../assets/images/com_head.jpg';
+import profileImg from '../assets/images/em_head.jpg';
 
 export const BGI_LOGO_PATH = logoImg;
 
 export const DEFAULT_PROFILE: ProfileData = {
-    name: 'Jannatul Maowa',
+    name: 'Jabed mia ',
 
-    dept: 'Communication  ',
+    dept: 'Emergency  ',
 
     role: 'Director ',
 
-    email: 'jannatul.bgi.community@gmail.com',
+    email: 'jabed.bgicommunity@gmail.com',
 
-    phone: '+880 1790099914',
+    phone: '+880 1842055201',
 
     bloodGroup: 'O+',
 
@@ -27,7 +27,7 @@ export const DEFAULT_PROFILE: ProfileData = {
     location: 'Dhaka, Bangladesh',
 
     socials: {
-        facebook: 'https://www.facebook.com/jannatul.maowa.745318',
+        facebook: 'https://www.facebook.com/md.jabed.736985',
 
        
     }
