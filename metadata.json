@@ -1,0 +1,6 @@
+{
+  "name": "BGI Community Portfolio",
+  "description": "Minimalist glassmorphic dark mode portfolio card with BGI Community branding, profile details, social links, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

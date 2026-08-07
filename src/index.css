@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .editorial-bg {
+    background: radial-gradient(circle at 80% 20%, #1a1a2e 0%, #050505 60%);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+  }
+
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card-hover:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.8),
+                0 0 30px 0 rgba(255, 255, 255, 0.05);
+    transform: translateY(-2px);
+  }
+
+  .glass-pill {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .blood-tag {
+    background: rgba(255, 50, 50, 0.1);
+    color: #ff5555;
+    border: 1px solid rgba(255, 50, 50, 0.25);
+  }
+
+  .glow-red {
+    box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.25);
+  }
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
