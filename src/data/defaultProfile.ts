@@ -1,22 +1,22 @@
 import { ProfileData } from '../types';
 
 import logoImg from '../assets/images/bgi_logo_1786128343361.jpg';
-import profileImg from '../assets/images/em_head.jpg';
+import profileImg from '../assets/images/mn_head.jpg';
 
 export const BGI_LOGO_PATH = logoImg;
 
 export const DEFAULT_PROFILE: ProfileData = {
-    name: 'Jabed mia ',
+    name: 'Afsana Siddika Mim ',
 
-    dept: 'Emergency  ',
+    dept: 'Management',
 
     role: 'Director ',
 
-    email: 'jabed.bgicommunity@gmail.com',
+    email: 'afsana.bgicommunity@gmail.com',
 
-    phone: '+880 1842055201',
+    phone: '+880 1757759981',
 
-    bloodGroup: 'O+',
+    bloodGroup: 'B+',
 
     avatarUrl: profileImg,
 
@@ -27,7 +27,7 @@ export const DEFAULT_PROFILE: ProfileData = {
     location: 'Dhaka, Bangladesh',
 
     socials: {
-        facebook: 'https://www.facebook.com/md.jabed.736985',
+        facebook: 'https://www.facebook.com/afsana.siddika.523',
 
        
     }
